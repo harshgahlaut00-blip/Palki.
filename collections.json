@@ -1,0 +1,23 @@
+[
+  {
+    "id": "c1",
+    "title": "Tailored Outerwear",
+    "subtitle": "Structured coats & blazers",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1000&auto=format&fit=crop",
+    "link": "products.html?category=Outerwear"
+  },
+  {
+    "id": "c2",
+    "title": "Evening Silk",
+    "subtitle": "Dresses & gowns",
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1000&auto=format&fit=crop",
+    "link": "products.html?category=Dresses"
+  },
+  {
+    "id": "c3",
+    "title": "Quiet Accessories",
+    "subtitle": "Leather goods & finishing pieces",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=1000&auto=format&fit=crop",
+    "link": "products.html?category=Accessories"
+  }
+]

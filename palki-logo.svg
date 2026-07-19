@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" role="img" aria-label="PALKI">
+  <rect width="240" height="60" fill="none"/>
+  <text x="0" y="42" font-family="Georgia, 'Cormorant Garamond', serif" font-size="38" letter-spacing="6" fill="#0a0a0a">PALKI</text>
+  <line x1="4" y1="50" x2="150" y2="50" stroke="#c9a76a" stroke-width="1.5"/>
+</svg>

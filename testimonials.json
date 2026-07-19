@@ -1,0 +1,30 @@
+[
+  {
+    "id": "t1",
+    "name": "Ananya Rao",
+    "location": "Bengaluru",
+    "rating": 5,
+    "text": "The overcoat fits like it was made for me — because it basically was. The fabric and finishing are on another level."
+  },
+  {
+    "id": "t2",
+    "name": "Vikram Sethi",
+    "location": "Delhi",
+    "rating": 5,
+    "text": "I've bought from a lot of 'luxury' labels. PALKI is the first one where I could actually see the hand-finishing up close."
+  },
+  {
+    "id": "t3",
+    "name": "Meera Iyer",
+    "location": "Mumbai",
+    "rating": 4,
+    "text": "Delivery was quick, packaging felt premium, and the wrap dress has become my go-to for every dinner since."
+  },
+  {
+    "id": "t4",
+    "name": "Rohan Kapoor",
+    "location": "Pune",
+    "rating": 5,
+    "text": "Ordered the tuxedo blazer for a wedding — got more compliments on the jacket than I did on my speech."
+  }
+]

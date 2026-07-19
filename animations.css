@@ -1,0 +1,85 @@
+/* =========================================================
+   PALKI — Animations
+   ========================================================= */
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes stitch-draw {
+  from { stroke-dashoffset: 400; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
+/* Scroll-reveal: elements start hidden, app.js/animations.js
+   toggles .is-visible via IntersectionObserver */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity var(--dur-slow) var(--ease-luxe),
+              transform var(--dur-slow) var(--ease-luxe);
+}
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-reveal="fade"] { transform: none; }
+
+/* Stagger children via inline --delay set by JS, or nth-child fallback */
+[data-reveal] { transition-delay: var(--reveal-delay, 0ms); }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* Signature stitch divider — a hand-drawn gold dashed line that
+   "sews" itself across the section boundary as it scrolls into view. */
+.stitch-divider {
+  width: 100%;
+  height: 24px;
+  overflow: visible;
+}
+.stitch-divider path {
+  fill: none;
+  stroke: var(--color-gold);
+  stroke-width: 1.5;
+  stroke-dasharray: 6 8;
+  stroke-dashoffset: 400;
+}
+.stitch-divider.is-visible path {
+  animation: stitch-draw 1.6s var(--ease-luxe) forwards;
+}
+
+.logo-mark { animation: float-slow 6s ease-in-out infinite; }
+
+/* Hover lift used on cards outside product-card component */
+.lift-on-hover { transition: transform var(--dur-fast) var(--ease-luxe); }
+.lift-on-hover:hover { transform: translateY(-6px); }
+
+.fade-in { animation: fade-in var(--dur-slow) var(--ease-luxe) both; }
+.scale-in { animation: scale-in var(--dur-mid) var(--ease-luxe) both; }

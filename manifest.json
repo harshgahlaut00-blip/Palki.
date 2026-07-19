@@ -1,0 +1,18 @@
+{
+  "name": "PALKI — Luxury Clothing",
+  "short_name": "PALKI",
+  "description": "PALKI is a luxury clothing house crafting hand-finished, considered garments.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

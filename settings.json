@@ -1,0 +1,100 @@
+{
+  "brand": {
+    "name": "PALKI",
+    "tagline": "Tailored for the Few",
+    "logoText": "PALKI",
+    "logoImage": "assets/logo/palki-logo.svg",
+    "favicon": "assets/icons/favicon.ico"
+  },
+
+  "hero": {
+    "eyebrow": "Autumn / Winter Collection",
+    "headline": "Clothing, Carried Like a Legacy",
+    "subheadline": "Hand-finished silhouettes from the house of PALKI — where every stitch is deliberate.",
+    "primaryButtonText": "Explore Collection",
+    "primaryButtonLink": "products.html",
+    "secondaryButtonText": "Our Story",
+    "secondaryButtonLink": "about.html",
+    "backgroundImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1920&auto=format&fit=crop",
+    "backgroundVideo": ""
+  },
+
+  "brandStory": {
+    "title": "The House of PALKI",
+    "text": "Born from the idea that clothing should be carried, not just worn, PALKI began as a small tailoring atelier and grew into a house known for restraint, precision, and quiet luxury. Every collection is built around fabric first — sourced, tested, and cut by hand before a single stitch is placed.",
+    "image": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=1400&auto=format&fit=crop"
+  },
+
+  "about": {
+    "vision": "To build a fashion house where craftsmanship outlives trend — garments people return to for decades, not seasons.",
+    "mission": "We design and construct considered clothing using ethically sourced materials, transparent production, and uncompromising finishing, delivered directly to the people who wear it.",
+    "values": [
+      { "title": "Craftsmanship", "description": "Every seam is finished by hand and inspected before it leaves the atelier." },
+      { "title": "Restraint", "description": "We design by removing, not adding — nothing on a PALKI piece is decorative without purpose." },
+      { "title": "Transparency", "description": "Our materials, mills, and pricing are shared openly with every customer who asks." },
+      { "title": "Longevity", "description": "We build for the wardrobe you'll still be wearing in ten years, not ten weeks." }
+    ],
+    "storyImage": "https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=1400&auto=format&fit=crop",
+    "teamImage": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=1400&auto=format&fit=crop"
+  },
+
+  "stats": [
+    { "value": 12, "suffix": "+", "label": "Years of Craft" },
+    { "value": 48000, "suffix": "+", "label": "Garments Delivered" },
+    { "value": 96, "suffix": "%", "label": "Client Retention" },
+    { "value": 22, "suffix": "", "label": "Master Tailors" }
+  ],
+
+  "whyChooseUs": [
+    { "icon": "needle", "title": "Hand-Finished Tailoring", "description": "Every piece passes through a master tailor's hands before it reaches yours." },
+    { "icon": "leaf", "title": "Responsibly Sourced Fabric", "description": "Natural fibres sourced from mills we've personally audited." },
+    { "icon": "truck", "title": "Insured Nationwide Delivery", "description": "Tracked, insured shipping on every single order." },
+    { "icon": "shield", "title": "Lifetime Repairs", "description": "Free lifetime stitching repairs on all PALKI garments." }
+  ],
+
+  "contact": {
+    "phone": "+91 90000 00000",
+    "phoneDisplay": "+91 90000 00000",
+    "whatsapp": "+91 90000 00000",
+    "whatsappMessage": "Hi PALKI, I'd like to know more about your collection.",
+    "email": "hello@palki.example",
+    "address": "PALKI Atelier, 4th Floor, Fashion Street, Mumbai, Maharashtra 400001, India",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.907!2d72.8347!3d19.0176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDAxJzAzLjQiTiA3MsKwNTAnMDUuMyJF!5e0!3m2!1sen!2sin!4v1700000000000",
+    "mapLink": "https://maps.google.com/?q=Fashion+Street+Mumbai",
+    "hours": "Mon – Sat, 10:00 AM – 7:00 PM IST",
+    "formEndpoint": "https://formsubmit.co/hello@palki.example"
+  },
+
+  "theme": {
+    "colorPrimary": "#0a0a0a",
+    "colorSecondary": "#faf8f3",
+    "colorAccent": "#c9a76a",
+    "colorAccentDeep": "#a9854f",
+    "colorMuted": "#8b8378",
+    "fontDisplay": "'Cormorant Garamond', serif",
+    "fontBody": "'Jost', sans-serif"
+  },
+
+  "footer": {
+    "text": "PALKI — considered clothing, made to last.",
+    "copyright": "© 2026 PALKI. All rights reserved.",
+    "newsletterText": "Join the list for early access to new collections."
+  },
+
+  "developer": {
+    "name": "HARSH",
+    "credit": "Website Designed & Developed by HARSH",
+    "whatsapp": "https://wa.me/910000000000",
+    "instagram": "https://instagram.com/yourhandle",
+    "email": "mailto:you@example.com",
+    "portfolio": "https://your-portfolio.example"
+  },
+
+  "seo": {
+    "title": "PALKI — Luxury Clothing, Tailored for the Few",
+    "description": "PALKI is a luxury clothing house crafting hand-finished, considered garments. Explore the collection, our story, and get in touch.",
+    "keywords": "PALKI, luxury clothing, premium fashion, tailored clothing, designer wear India",
+    "siteUrl": "https://www.palki.example",
+    "ogImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1200&auto=format&fit=crop"
+  }
+}

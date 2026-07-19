@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PALKI — Luxury Clothing, Tailored for the Few</title>
+  <meta name="description" content="PALKI is a luxury clothing house crafting hand-finished, considered garments. Explore the collection, our story, and get in touch.">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="canonical" href="https://www.palki.example/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PALKI">
+  <meta property="og:title" content="PALKI — Luxury Clothing, Tailored for the Few">
+  <meta property="og:description" content="Hand-finished, considered clothing from the house of PALKI.">
+  <meta property="og:url" content="https://www.palki.example/">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "PALKI",
+    "description": "Luxury clothing house crafting hand-finished, considered garments.",
+    "url": "https://www.palki.example/"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" data-nav>
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo" data-bind="settings.brand.logoText">PALKI</a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="contact.html" class="btn btn--outline btn--sm">Enquire</a>
+        <button type="button" class="nav__toggle" data-nav-toggle aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav__mobile" id="mobileNav" data-nav-mobile aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" style="background-image:url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1920&auto=format&fit=crop');" data-bind-bg="settings.hero.backgroundImage">
+      <div class="hero__scrim"></div>
+      <div class="container hero__content">
+        <p class="hero__eyebrow" data-bind="settings.hero.eyebrow">Autumn / Winter Collection</p>
+        <h1 data-bind="settings.hero.headline">Clothing, Carried Like a Legacy</h1>
+        <p data-bind="settings.hero.subheadline">Hand-finished silhouettes from the house of PALKI — where every stitch is deliberate.</p>
+        <div class="hero__actions">
+          <a href="products.html" class="btn btn--primary" data-bind="settings.hero.primaryButtonText" data-bind-href="settings.hero.primaryButtonLink">Explore Collection</a>
+          <a href="about.html" class="btn btn--outline" data-bind="settings.hero.secondaryButtonText" data-bind-href="settings.hero.secondaryButtonLink">Our Story</a>
+        </div>
+      </div>
+      <div class="hero__scroll-cue"><span class="hero__scroll-line"></span> Scroll</div>
+    </section>
+
+    <!-- ============ FEATURED COLLECTIONS ============ -->
+    <section class="section container">
+      <div class="section-head">
+        <p class="eyebrow">Shop By Edit</p>
+        <h2>Featured Collections</h2>
+      </div>
+      <div class="grid grid--3" data-collections></div>
+    </section>
+
+    <svg class="stitch-divider container" viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 12 Q 300 24 600 12 T 1200 12" pathLength="400"></path>
+    </svg>
+
+    <!-- ============ NEW ARRIVALS ============ -->
+    <section class="section container">
+      <div class="section-head">
+        <p class="eyebrow">Just In</p>
+        <h2>New Arrivals</h2>
+      </div>
+      <div class="grid grid--4 products-grid" data-products="new"></div>
+    </section>
+
+    <!-- ============ BRAND STORY ============ -->
+    <section class="section section--alt">
+      <div class="container grid grid--2 about-split" style="align-items:center;">
+        <div data-reveal>
+          <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=1400&auto=format&fit=crop" data-bind-src="settings.brandStory.image" alt="Inside the PALKI atelier" loading="lazy" style="border-radius:var(--radius-lg);width:100%;aspect-ratio:4/5;object-fit:cover;">
+        </div>
+        <div data-reveal>
+          <p class="eyebrow">Our Story</p>
+          <h2 data-bind="settings.brandStory.title">The House of PALKI</h2>
+          <p style="margin-top:1.25rem;color:var(--color-muted);font-size:1.05rem;" data-bind="settings.brandStory.text">Born from the idea that clothing should be carried, not just worn.</p>
+          <a href="about.html" class="btn btn--ghost" style="margin-top:1.5rem;display:inline-block;">Read Our Full Story →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED PRODUCTS ============ -->
+    <section class="section container">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">The Edit</p>
+        <h2>Featured Collection</h2>
+        <p class="section-sub">A tightly curated selection, chosen each season by our design team.</p>
+      </div>
+      <div class="grid grid--4 products-grid" data-products="featured"></div>
+      <div class="text-center" style="margin-top:2.5rem;">
+        <a href="products.html" class="btn btn--outline">View All Products</a>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">The Difference</p>
+          <h2>Why Choose PALKI</h2>
+        </div>
+        <div class="grid grid--4" data-features></div>
+      </div>
+    </section>
+
+    <!-- ============ ANIMATED STATISTICS ============ -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">By The Numbers</p>
+          <h2>A Decade of Craft</h2>
+        </div>
+        <div class="stats" data-stats></div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section container">
+      <div class="section-head section-head--center">
+        <p class="eyebrow">Client Voices</p>
+        <h2>Customer Testimonials</h2>
+      </div>
+      <div class="testimonial-slider" data-testimonials></div>
+    </section>
+
+    <!-- ============ INSTAGRAM GALLERY ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">Follow Along</p>
+          <h2>@<span data-instagram-handle>palki.official</span></h2>
+        </div>
+      </div>
+      <div class="gallery" data-gallery></div>
+    </section>
+
+    <!-- ============ CALL TO ACTION ============ -->
+    <section class="cta-band section--dark">
+      <div class="container">
+        <p class="eyebrow">Ready When You Are</p>
+        <h2>Begin Your PALKI Wardrobe Today</h2>
+        <a href="products.html" class="btn btn--primary">Explore The Collection</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="footer__brand" data-bind="settings.brand.logoText">PALKI</div>
+        <p class="footer__desc" data-bind="settings.footer.text">PALKI — considered clothing, made to last.</p>
+        <div class="footer__socials" data-footer-socials>
+          <a href="#" data-bind-href="social.links.instagram" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" data-bind-href="social.links.facebook" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 9h3V6h-3c-2 0-3.5 1.5-3.5 3.5V12H8v3h2.5v6h3v-6H16l1-3h-3.5v-2c0-.6.4-1 1-1z"/></svg></a>
+          <a href="#" data-whatsapp-link aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 20l1.3-4A8 8 0 1112 20a8 8 0 01-4-1.1z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#" data-phone-link data-bind="settings.contact.phoneDisplay">+91 90000 00000</a></li>
+          <li><a href="#" data-email-link data-bind="settings.contact.email">hello@palki.example</a></li>
+          <li><span data-bind="settings.contact.hours">Mon – Sat, 10AM – 7PM</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay Updated</h4>
+        <p style="font-size:0.9rem;" data-bind="settings.footer.newsletterText">Join the list for early access to new collections.</p>
+        <form class="newsletter" data-newsletter-form>
+          <label class="visually-hidden" for="newsletter-email">Email address</label>
+          <input id="newsletter-email" type="email" required placeholder="Your email address">
+          <button type="submit" class="btn btn--primary btn--sm">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span data-bind="settings.footer.copyright">© 2026 PALKI. All rights reserved.</span>
+      <span class="footer__dev">
+        Website Designed &amp; Developed by
+        <a href="#" data-bind-href="settings.developer.portfolio" data-bind="settings.developer.name">HARSH</a>
+        · <a href="#" data-bind-href="settings.developer.whatsapp">WhatsApp</a>
+        · <a href="#" data-bind-href="settings.developer.instagram">Instagram</a>
+        · <a href="#" data-bind-href="settings.developer.email">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

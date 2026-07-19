@@ -1,0 +1,18 @@
+{
+  "instagramHandle": "@palki.official",
+  "instagramLink": "https://instagram.com/",
+  "gallery": [
+    { "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=600&auto=format&fit=crop", "link": "https://instagram.com/" },
+    { "image": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=600&auto=format&fit=crop", "link": "https://instagram.com/" },
+    { "image": "https://images.unsplash.com/photo-1520975954732-35dd22299614?q=80&w=600&auto=format&fit=crop", "link": "https://instagram.com/" },
+    { "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=600&auto=format&fit=crop", "link": "https://instagram.com/" },
+    { "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=600&auto=format&fit=crop", "link": "https://instagram.com/" },
+    { "image": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?q=80&w=600&auto=format&fit=crop", "link": "https://instagram.com/" }
+  ],
+  "links": {
+    "instagram": "https://instagram.com/",
+    "facebook": "https://facebook.com/",
+    "pinterest": "https://pinterest.com/",
+    "twitter": "https://x.com/"
+  }
+}

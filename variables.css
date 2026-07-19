@@ -1,0 +1,85 @@
+/* =========================================================
+   PALKI — Design Tokens
+   Every value here can be tuned to re-skin the whole site.
+   For content-level color/font overrides see data/settings.json
+   (applied at runtime by js/app.js onto these same variables).
+   ========================================================= */
+
+:root {
+  /* ---- Color: Black / White / Gold ---- */
+  --color-ink:        #0a0a0a;   /* primary black */
+  --color-ink-soft:   #1c1c1c;   /* secondary text on light */
+  --color-paper:      #faf8f3;   /* warm off-white */
+  --color-paper-dim:  #f0ece3;   /* section alt background */
+  --color-gold:       #c9a76a;   /* accent gold */
+  --color-gold-deep:  #a9854f;   /* hover / pressed gold */
+  --color-gold-pale:  #e7d9bb;   /* faint gold, borders/badges */
+  --color-muted:      #8b8378;   /* secondary / muted text */
+  --color-line:       rgba(10, 10, 10, 0.1);
+  --color-line-dark:  rgba(250, 248, 243, 0.16);
+  --color-success:    #4c7a56;
+  --color-error:      #a13d3d;
+
+  /* ---- Glass ---- */
+  --glass-bg-dark:    rgba(10, 10, 10, 0.55);
+  --glass-bg-light:   rgba(250, 248, 243, 0.65);
+  --glass-border:     rgba(255, 255, 255, 0.14);
+  --glass-blur:       14px;
+
+  /* ---- Typography ---- */
+  --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-body:    'Jost', 'Helvetica Neue', Arial, sans-serif;
+
+  --fs-h1: clamp(2.6rem, 6vw, 5.4rem);
+  --fs-h2: clamp(2rem, 4vw, 3.4rem);
+  --fs-h3: clamp(1.4rem, 2.4vw, 2rem);
+  --fs-body: 1rem;
+  --fs-small: 0.85rem;
+  --fs-eyebrow: 0.78rem;
+
+  --lh-tight: 1.08;
+  --lh-normal: 1.6;
+  --ls-wide: 0.18em;
+  --ls-wider: 0.32em;
+
+  /* ---- Spacing scale ---- */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs:  0.75rem;
+  --space-sm:  1rem;
+  --space-md:  1.5rem;
+  --space-lg:  2.5rem;
+  --space-xl:  4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 9rem;
+
+  --container-max: 1320px;
+  --container-pad: clamp(1.25rem, 4vw, 3.5rem);
+
+  /* ---- Radius / Shadow ---- */
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 14px;
+  --shadow-soft: 0 10px 40px rgba(10, 10, 10, 0.08);
+  --shadow-strong: 0 24px 60px rgba(10, 10, 10, 0.18);
+
+  /* ---- Motion ---- */
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 220ms;
+  --dur-mid: 480ms;
+  --dur-slow: 900ms;
+
+  /* ---- Z-index ---- */
+  --z-nav: 100;
+  --z-modal: 200;
+  --z-toast: 300;
+
+  /* ---- Layout stability ---- */
+  --nav-height: 84px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
